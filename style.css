@@ -1,0 +1,48 @@
+ul{
+    display:flex;
+    list-style: none;
+    
+}
+body{
+    padding:0px;
+    margin:0px;
+}
+header{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 100px;
+    background-color:black;
+    color:white;
+}
+ul li a{
+    padding: 0 20px;
+    color: white;
+}
+p{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
+h1{
+    color:white;
+
+}
+.but{
+    padding: 12px;
+    border-radius: 16px;
+    background-color:black;
+    color: white;
+    
+}
+.beta{
+    background:url("https://i.pinimg.com/564x/bc/38/53/bc38531043ce1d736c4f412bcdc5574f.jpg");
+    background-repeat:no repeat;
+    background-size:cover;
+    height: calc(100vh - 100px);
+    display: flex;
+    color:white
+    align-items:center;
+    justify-items:center;
+}
